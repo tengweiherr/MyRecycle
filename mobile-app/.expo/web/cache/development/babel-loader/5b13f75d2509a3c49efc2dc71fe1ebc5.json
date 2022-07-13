@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { ScrollView } from \"./ScrollView\";","map":{"version":3,"sources":["index.tsx"],"names":[],"mappings":"AAAA,SAAA,UAAA","sourcesContent":["export { ScrollView } from './ScrollView';\nexport type { IScrollViewProps } from './types';\n"]},"metadata":{},"sourceType":"module"}

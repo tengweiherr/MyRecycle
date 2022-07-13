@@ -1,0 +1,1 @@
+{"ast":null,"code":"import BreadcrumbLink from \"../../primitives/Link\";\nexport default BreadcrumbLink;","map":{"version":3,"sources":["BreadcrumbLink.tsx"],"names":[],"mappings":"AAAA,OAAA,cAAA;AAEA,eAAA,cAAA","sourcesContent":["import BreadcrumbLink from '../../primitives/Link';\n\nexport default BreadcrumbLink;\n"]},"metadata":{},"sourceType":"module"}

@@ -1,0 +1,36 @@
+.status-button .button {
+  margin-left: 0.5rem;
+  border-color: black;
+  border-width: 2px;
+  background-color: transparent;
+  color: black;
+}
+
+.status-button .button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.status-button .button.active {
+  background-color: #96d6b4;
+}
+
+.status-button .button.active.pending {
+  background-color: #e8e31f;
+}
+
+.status-button .button.active.waiting {
+  background-color: #f0ade0;
+}
+
+.status-button .button.active.inprogress {
+  background-color: #6db6f2;
+}
+
+.status-button .button.active.solved {
+  background-color: #4ad1b7;
+}
+
+.status-button .button.active.rejected {
+  background-color: #ff7b52;
+}
+/*# sourceMappingURL=Reports.css.map */

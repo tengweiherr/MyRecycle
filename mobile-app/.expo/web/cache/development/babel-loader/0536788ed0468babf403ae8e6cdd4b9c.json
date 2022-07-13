@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default as Pressable } from \"./Pressable\";","map":{"version":3,"sources":["index.tsx"],"names":["default"],"mappings":"AAAA,SAASA,OAAO,IAAhB,SAAA","sourcesContent":["export { default as Pressable } from './Pressable';\nexport type { IPressableProps } from './types';\n"]},"metadata":{},"sourceType":"module"}

@@ -1,0 +1,69 @@
+tr {
+  font-size: 14px;
+}
+
+td{
+  font-size: 13px;
+}
+
+.status-button {
+  .button {
+    margin-left: 0.5rem;
+    border-color: black;
+    border-width: 2px;
+    background-color: transparent;
+    color: black;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    &.active {
+      background-color: #96d6b4;
+
+      &.pending {
+        background-color: #e8e31f;
+      }
+      &.waiting {
+        background-color: hsl(315, 70%, 81%);
+      }
+      &.inprogress {
+        background-color: #6db6f2;
+      }
+      &.solved {
+        background-color: #4ad1b7;
+      }
+      &.rejected {
+        background-color: #ff7b52;
+      }
+    }
+  }
+}
+
+.scrap-data .modal-dialog{
+  max-width: 80%;
+  font-size:13px;
+}
+
+.existed {
+  background-color:#c7b3b3;
+  td{
+    font-style: italic;
+  }
+  &:hover{
+    background-color: #c7b3b3 !important;
+  }
+}
+
+.pagination{ 
+  
+  li a {
+  font-size: 12px;  
+  }
+
+  .page-item{
+    &.active{
+      background-color: #6db6f2;
+    }
+  }
+}

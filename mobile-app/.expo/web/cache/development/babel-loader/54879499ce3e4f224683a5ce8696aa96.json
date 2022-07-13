@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default {\n  baseStyle: {},\n  defaultProps: {}\n};","map":{"version":3,"sources":["pressable.ts"],"names":["baseStyle","defaultProps"],"mappings":"AAAA,eAAe;AACbA,EAAAA,SAAS,EADI,EAAA;AAEbC,EAAAA,YAAY,EAAE;AAFD,CAAf","sourcesContent":["export default {\n  baseStyle: {},\n  defaultProps: {},\n};\n"]},"metadata":{},"sourceType":"module"}

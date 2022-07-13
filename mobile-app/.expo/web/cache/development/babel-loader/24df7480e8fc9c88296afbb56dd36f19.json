@@ -1,0 +1,1 @@
+{"ast":null,"code":"import AuthScreen from \"./AuthScreen\";\nexport { AuthScreen };","map":{"version":3,"sources":["/Users/weiherr/Desktop/FYP/MyRecycle/mobile-app/screens/index.js"],"names":["AuthScreen"],"mappings":"AAAA,OAAOA,UAAP;AAEA,SAASA,UAAT","sourcesContent":["import AuthScreen from './AuthScreen';\n\nexport { AuthScreen };"]},"metadata":{},"sourceType":"module"}

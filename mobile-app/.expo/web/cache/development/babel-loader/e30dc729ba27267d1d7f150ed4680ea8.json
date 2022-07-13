@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { FlatList } from \"./FlatList\";","map":{"version":3,"sources":["index.tsx"],"names":[],"mappings":"AAAA,SAAA,QAAA","sourcesContent":["export { FlatList } from './FlatList';\nexport type { IFlatListProps } from './types';\n"]},"metadata":{},"sourceType":"module"}

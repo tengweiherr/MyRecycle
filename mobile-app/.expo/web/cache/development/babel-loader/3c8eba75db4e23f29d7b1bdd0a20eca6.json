@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { VStack } from \"../Stack\";\nexport { VStack as Column };","map":{"version":3,"sources":["index.tsx"],"names":["VStack"],"mappings":"AAAA,SAAA,MAAA;AACA,SAASA,MAAM,IAAf,MAAA","sourcesContent":["import { VStack } from '../Stack';\nexport { VStack as Column };\n"]},"metadata":{},"sourceType":"module"}

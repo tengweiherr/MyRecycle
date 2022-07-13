@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { useTypeahead } from \"./useTypeahead\";","map":{"version":3,"sources":["index.ts"],"names":[],"mappings":"AAAA,SAAA,YAAA","sourcesContent":["export { useTypeahead } from './useTypeahead';\n"]},"metadata":{},"sourceType":"module"}

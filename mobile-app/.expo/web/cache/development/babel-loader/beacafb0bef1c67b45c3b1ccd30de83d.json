@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { usePermissions } from \"./PermissionsHooks\";\nexport * from \"./Permissions\";","map":{"version":3,"sources":["../src/index.ts"],"names":[],"mappings":"AAAA,SAAS,cAAT;AAEA","sourcesContent":["export { usePermissions } from './PermissionsHooks';\n\nexport * from './Permissions';\n"],"sourceRoot":""},"metadata":{},"sourceType":"module"}

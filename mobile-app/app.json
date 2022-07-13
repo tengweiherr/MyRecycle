@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "MyRecycle",
+    "slug": "myrecycle",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.myrecycle.myrecycle",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCb06MsvugUXvsI0iHSttCGizlmFNBb1hY"
+        }
+      },
+      "package": "com.myrecycle.myrecycle",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/myrecycle.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app is requiring to access your photo library.",
+          "cameraPermission": "The app is requiring to access your camera.",
+          "microphonePermission": "The app is requiring to access your microphone."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
+          "isAccessMediaLocationEnabled": "true"
+        }
+      ]
+    ],
+    "description": ""
+  }
+}
