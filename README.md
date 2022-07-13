@@ -2,6 +2,6 @@
 Final Year Project, Undergraduate Computer Science, Universiti Sains Malaysia 2022
 
 # Tech deployed
-Front-End: ReactJS, React Native
-Back-End: NodeJS, Express, Sequalize(ORM)
-Database: MySQL
+Front-End: ReactJS, React Native__
+Back-End: NodeJS, Express, Sequalize(ORM)__
+Database: MySQL__
