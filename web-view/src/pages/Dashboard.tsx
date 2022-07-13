@@ -13,7 +13,6 @@ import {
     Tooltip,
     Legend
 } from 'chart.js'
-import { API_URL } from "../API_URL";
 
 ChartJS.register(
     CategoryScale,
@@ -26,6 +25,8 @@ ChartJS.register(
 )
 
 const Dashboard = () => {
+
+  const API_URL = process.env.API_URL;
 
   interface UserStateType {
     states: Array<string>;

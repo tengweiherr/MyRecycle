@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Button, Container, Row, Table, Col, Form, Modal } from "react-bootstrap";
-import { API_URL } from "../API_URL";
 
 const Materials = () => {
+
+  const API_URL = process.env.REACT_APP_API_URL;
 
   interface MaterialType {
     id: number;

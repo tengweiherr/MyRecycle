@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Button, Container, Row, Table, Col, Form, Modal, Image } from "react-bootstrap";
-import { API_URL } from "../API_URL";
 import * as XLSX from "xlsx";
 import { ArrowRight, Trash } from 'react-bootstrap-icons';
+
+const API_URL = process.env.API_URL;
 
 const Products = () => {
 

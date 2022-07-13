@@ -33,6 +33,8 @@ const App = () => {
   // const [showAdminBoard, setShowAdminBoard] = useState<boolean>(false);
   // const [currentUser, setCurrentUser] = useState<IUser | undefined>(undefined);
 
+  const API_URL = process.env.REACT_APP_API_URL;
+
 //----------------
 enum UserActionType {
   LOGIN = "LOGIN",

@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Button, Container, Row, Table, Col, Form, Modal, DropdownButton, ButtonToolbar, ButtonGroup, Image } from "react-bootstrap";
 import "./Reports.scss";
-import { API_URL } from "../API_URL";
+
+const API_URL = process.env.API_URL;
 
 const Reports = () => {
 

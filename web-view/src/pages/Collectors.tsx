@@ -1,9 +1,10 @@
 import React, { useState, useEffect, forwardRef, useRef } from "react";
 import { Button, Container, Row, Table, Col, Form, Modal } from "react-bootstrap";
-import { API_URL } from "../API_URL";
 import { ArrowRight, Trash } from 'react-bootstrap-icons';
 
 const Collectors = () => {
+
+  const API_URL = process.env.REACT_APP_API_URL;
 
   interface CollectorType {
     id: number;

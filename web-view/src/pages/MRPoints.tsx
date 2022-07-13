@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Button, Container, Row, Table, Col, Form, Modal, DropdownButton, ButtonToolbar, ButtonGroup } from "react-bootstrap";
-import { API_URL } from "../API_URL";
 
 const MRPoints = () => {
+
+  const API_URL = process.env.REACT_APP_API_URL;
 
   interface MRPointsType {
     mrpoint_id: number;

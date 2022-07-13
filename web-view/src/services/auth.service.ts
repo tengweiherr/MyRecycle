@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { API_URL } from "../API_URL";
+
+const API_URL = process.env.REACT_APP_API_URL;
 
 export const register = (username: string, email: string, password: string) => {
   return axios.post(API_URL + "signup", {

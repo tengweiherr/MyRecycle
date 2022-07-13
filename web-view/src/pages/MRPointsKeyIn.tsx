@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Button, Container, Row, Table, Col, Form, Modal, DropdownButton, ButtonToolbar, ButtonGroup } from "react-bootstrap";
 import {useParams} from "react-router-dom";
-import { API_URL } from "../API_URL";
+
+const API_URL = process.env.API_URL;
 
 const MRPointsKeyIn = () => {
 

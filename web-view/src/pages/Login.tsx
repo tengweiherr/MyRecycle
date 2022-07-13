@@ -4,9 +4,10 @@ import * as Yup from "yup";
 import { login } from "../services/auth.service";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../common/context";
-import { API_URL } from "../API_URL";
 
 const Login = () => {
+
+  const API_URL = process.env.REACT_APP_API_URL;
 
   const [isError, setIsError] = useState<boolean>(false);
   const [message, setMessage] = useState<string>('');
