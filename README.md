@@ -22,7 +22,7 @@ MyRecycle(MR) is the first application that integrates a government-licensed was
 | Database | MySQL |
 | Hosting | Netlify, Heroku |
 
-## Challenges and solutions
+## Challenges and Solutions
 
 ### 1. CORS
 
