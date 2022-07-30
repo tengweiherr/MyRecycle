@@ -21,7 +21,7 @@ MyRecycle(MR) is the first application that integrates a government-licensed was
 | Frontend - webapp | ReactJS, TypeScript |
 | Backend | NodeJS, Express, Sequalize(ORM) |
 | Database | MySQL |
-| Testing | Jest, Cypress.io |
+| Testing | Postman, Cypress.io |
 | Hosting | Netlify, Heroku |
 
 ## :beers: Challenges and Solutions
