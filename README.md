@@ -47,5 +47,43 @@ app.use(cors({
 }))
 ```
 
-
 Reference: https://www.section.io/engineering-education/how-to-use-cors-in-nodejs-with-express/
+
+### 2. Rendering large amount of data
+
+There was always delay when rendering the large amount of data (over 2000) on both mobile app and web app. After some research, these are the implementation:
+1. Mobile App
+
+I used Flatlist from NativeBase to render the large amount of data. FlatList from NativeBase is just an modified version of flatlist from React Native, which serves the same purpose - A performant interface for rendering list of data.
+
+```javascript
+//correct example
+<FlatList
+    data={filteredData}
+    initialNumToRender={10}
+    maxToRenderPerBatch={10}
+    renderItem={renderItem}
+    keyExtractor={(item) => parseInt(item.gtin)}
+/>
+
+const renderItem = ({item}) => (
+<Box>...</Box>
+)
+```
+
+Notice the props **initialNumToRender** and **maxToRenderPerBatch**. They are the keys to improve the large amount data rendering. Another approach is to  create a seperate function for the **renderItem** instead of create the item inside of the flatlist. Here is the opposite way to do so:
+
+```javascript
+//wrong example
+<FlatList
+    data={filteredData}
+    renderItem={({ item }) => (
+      <Box>...</Box>
+    )}
+    keyExtractor={(item) => parseInt(item.id)}
+/>
+```
+
+References: 
+1. https://docs.nativebase.io/flat-list
+1. https://reactnative.dev/docs/flatlist
