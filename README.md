@@ -9,7 +9,7 @@ by Teng Wei Herr
 1. **Gold Award & AIA Special Award** <sub>*Issued by Korea Creative Invention Contest (CiC) 2022*</sub>
 2. **Gold Award** <sub>*Issued by PIXEL USM 2022*</sub>
 
-## :octocat: Demo Video
+## :clapper: Demo Video
 https://www.youtube.com/watch?v=fhkAQOCLhAk&t=98s
 
 ## :rocket: Project Background
