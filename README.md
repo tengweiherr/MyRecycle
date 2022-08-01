@@ -3,10 +3,14 @@ Final Year Project, Undergraduate Computer Science, Universiti Sains Malaysia 20
 
 by Teng Wei Herr
 
+<img src="https://user-images.githubusercontent.com/58802811/182071231-7edf77b4-49f4-46ff-8e9b-0c9d3960dddc.jpg" alt="teng-wei-herr-3" width="500">
+
 ## :trophy: Awards
 1. **Gold Award & AIA Special Award** <sub>*Issued by Korea Creative Invention Contest (CiC) 2022*</sub>
 2. **Gold Award** <sub>*Issued by PIXEL USM 2022*</sub>
 
+## :octocat: Demo Video
+https://www.youtube.com/watch?v=fhkAQOCLhAk&t=98s
 
 ## :rocket: Project Background
 Environmental pollution and waste management have become a global concern in the 21st century. The recycling rate in Malaysia is only at 31.52% in 2021 while it is over 60% in most developed countries. In Malaysia, National Solid Waste Department (JPSPN) is the official agency responsible for waste management, licensing waste collectors and providing information such as recycling guide. However, it is inefficient for recyclers to search and read the information from the website. Therefore, MyRecycle(MR), a combination of mobile and web applications is introduced to bridge the gap by improving the current method along with extra features to encourage the public to practice recycling.
